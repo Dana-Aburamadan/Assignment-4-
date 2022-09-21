@@ -5,7 +5,7 @@ if check == True:
     print("2_ -")
     print("3_ *")
     print("4_ /")
-    print("5_ ^")
+    print("5_ **")
     print("6_ %")
 
     choice = input("enter your choice: ")
@@ -25,8 +25,8 @@ if check == True:
         elif choice == "4" or choice == "/":
             The_result = float(number1) / float(number2)
             print(The_result)
-        elif choice == "5" or choice == "^":
-            The_result = int(number1) ^ int(number2)
+        elif choice == "5" or choice == "**":
+            The_result = float(number1) ** float(number2)
             print(The_result)
         elif choice == "6" or choice == "%":
             The_result = float(number1) % float(number2)
